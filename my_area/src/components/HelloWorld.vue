@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <hr class="ligne-droite">
-    <div class="rectangle"></div>
+    <div class="rectangle">
+      <p class="text">lolo</p>
+    </div>
     <h1>{{ msg }}</h1>
     <p>
       For a halid and recipes on how to configure / customize this project,<br>
@@ -69,5 +71,9 @@ a {
   background-color: #709CA7; /* Couleur de fond du rectangle */
   margin-left: 1450px;
   margin-top: -50px;
+}
+.text {
+  margin-left: 10px;
+  margin-top: -10px;
 }
 </style>
