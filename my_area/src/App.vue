@@ -1,6 +1,7 @@
 <template>
   <a href="https://vuejs.org">
     <img src="./assets/area.png" class="image-redimensionnee">
+    <hr class="ligne-droite">
   </a>
   <router-view></router-view>
 </template>
@@ -26,5 +27,10 @@ export default {
   height: 80px; /* Hauteur ajustée proportionnellement */
   margin-top: -60px;
   margin-left: -780px;
+}
+.ligne-droite {
+  border: none;
+  border-top: 3px solid #709CA7;
+  margin: -10px 0; /* Vous pouvez ajuster la marge selon vos besoins */
 }
 </style>
