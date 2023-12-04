@@ -2,7 +2,7 @@
   <div class="hello">
     <hr class="ligne-droite">
     <div class="rectangle">
-      <p class="text">lolo</p>
+      <button v-on:click="getstart" >Get Started</button>
     </div>
     <h1>{{ msg }}</h1>
     <p>
@@ -31,12 +31,13 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <router-link to="/login">À propos</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'App',
   props: {
     msg: String
   }
@@ -70,10 +71,20 @@ a {
   border-radius: 30px;
   background-color: #709CA7; /* Couleur de fond du rectangle */
   margin-left: 1450px;
-  margin-top: -50px;
+  margin-top: -70px;
 }
 .text {
-  margin-left: 10px;
-  margin-top: -10px;
+  padding-top: 12px;
+  justify-content: center;
+}
+.mon-bouton {
+  /* Styles personnalisés pour le bouton */
+  background-color: #709CA7;
+  color: #000000;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
 }
 </style>

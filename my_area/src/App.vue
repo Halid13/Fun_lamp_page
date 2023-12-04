@@ -2,17 +2,13 @@
   <a href="https://vuejs.org">
     <img src="./assets/area.png" class="image-redimensionnee">
   </a>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
