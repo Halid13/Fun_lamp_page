@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="rectangle">
       <div class="th">
-        <router-link to="/login" class="text">Get Started</router-link>
+        <router-link to="/join" class="text">Get Started</router-link>
       </div>
     </div>
     <div class="lo">
@@ -25,7 +25,7 @@
     </div>
     <div class="rectangle1">
       <div class="the">
-        <router-link to="/login" class="fina-text">Start</router-link>
+        <router-link to="/join" class="fina-text">Start</router-link>
       </div>
     </div>
   </div>
